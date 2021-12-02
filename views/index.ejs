@@ -1,0 +1,147 @@
+<!--Incluir codigo ./header.ejs Na pagina Cuidadores-->
+<%- include('include/header.ejs')%>
+
+<!-- Inserir CSS apenas para esta pagina -->
+
+<!--EX:  <link rel="stylesheet" type="text/css" href="/caminho/caminho2.css" media="screen" /> -->
+<link rel="stylesheet" type="text/css" href="/css/index.css" media="screen" /> 
+
+
+<!-- ----------------------------------------------------------------------------------------- -->
+<!--Inicio do Body(Corpo da pagina)-->
+<body class="h-100 text-center meu_background">
+  <div class="imagemtela">
+    
+ 
+    <div id="colstr">
+    
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!--Importando Scripts Para Nossa Pagina             -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+      crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+      integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+      crossorigin="anonymous"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"></script>
+<!--Fim da Chamada-->
+
+
+  <!--Chama Um arquivo JS para a Pagina                                                            -->
+  <!--Por padrao todas as pastas estao configuradas no index.js para ter como padrao a pasta public-->
+  <!--EX: <script type="text/javascript" src="/js/initial.js"></script>                            -->
+  <!--Qualquer outro caminho que nao derive da pasta public deve ser especificado corretamente     -->
+
+
+
+  <!--Menu Superior da pagina(Header)-->
+  <!--
+  <div class="conj_text">
+      <header class="navbar navbar-expand-md navbar-dark fixed-top bg-darks">
+          <ul class="nav nav-pills">
+              <li class="nav-item"><a href="../principal"
+                      class="nav-link">Principal</a></li>
+              <li class="nav-item"><a href="/pesquisa" class="nav-link">Pesquisa</a></li>
+  
+              <li class="nav-item"><a href="/pagina_usuario" class="nav-link">Perfil</a></li>
+              <li class="nav-item"><a href="/mais" class="nav-link"
+                  aria-current="page">Mais Sobre</a></li>
+                  <li class="nav-item"><a href="/suport" class="nav-link">Suport</a></li>
+      </header>
+      </div> -->
+      <header>
+
+        <div class="group">
+        
+          <nav id="primeiramenu">
+            <a href="http://www.facebook.com/"><img id="icon" src="./assets/facebook.png"  width="32px;"></a>
+            <a href="http://www.instagram.com/"><img id="icon" src="./assets/instagram.png" width="32px;"></a>
+            <a href="http://www.github.com/"><img id="icon" src="./assets/github.png"    width="32px;"></a>
+          </nav>
+        
+          <nav id="segundamenu">
+        <div>
+          <img src="./assets/titulo.ico" width="100px;">
+        <h1>Pet Tour - 
+          Passeios com Pet
+        </h1>
+        </div>
+        </nav>
+        
+          <nav id="terceiramenu">
+        <div>
+        
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="../principal"
+                        class="linksmenu">Principal</a></li>
+                <li class="nav-item"><a href="/pesquisa" class="linksmenu">Pesquisa</a></li>
+        
+                <li class="nav-item"><a href="/pagina_usuario" class="linksmenu">Perfil</a></li>
+                <li class="nav-item"><a href="/mais" class="linksmenu"
+                    aria-current="page">Mais Sobre</a></li>
+                    <li class="nav-item"><a href="/suporte" class="linksmenu">Suport</a></li>
+        </ul>
+        </div>
+          </nav>
+        
+        </div>
+        
+              </header>
+  <!--Fim do Menu superior-->
+
+
+  <!--Inicio Do Corpo Da Pagina-->
+  <div id="jummar">
+  <section class="jumbotron text-center">
+    <div class="container">
+      <h3 class="h1-slider">Seu pet em Boas Mãos</h3>
+          <p class="lead textsub">Nós iremos lhe mostrar o cuidador mais perto de voce</p>
+      <p>
+        <a href="/cuidadores" class="btn btn-primary my-2">Cuidadores</a>
+        <a href="/pedidos" class="btn btn-primary my-2">Venha ser um Cuidador</a>
+        <a href="/mais" class="btn btn-primary my-2">Mais Sobre Nós</a>
+      </p>
+    </div>
+  </section>
+</div>
+
+<img src="./assets/PetTour.png" width="150px;">
+<hr class="hr3">
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+
+    <main class="px-3">
+      <div class="tituloini">
+      <h1 id="h1tit">Tudo com o Maior Nivel de Praticidade pra você.</h1>
+    </div>
+      <hr class="hr3">
+      <div id="textocentral"><a>Quem pensou que somente os humanos precisam se exercitar para manter a saúde está muito enganado. Os pets também precisam realizar atividades físicas para crescerem de forma saudável. Ao levar o seu cachorro para passear fora de casa, você estará ajudando-o a reduzir o risco de doenças no coração, diabetes e obesidade.</a></div>
+      <hr class="hr3">
+      <img src="./assets/img/covid-19.png" width="100px;">
+      
+    </main>
+  
+  </div>
+</div>
+
+
+ 
+   <!--Fim Do Corpo Da Pagina-->
+
+  </div>
+
+<!--Inicio Do Footer(Codigo do ./Footer.Ejs-->
+<%- include('include/footer.ejs')%>

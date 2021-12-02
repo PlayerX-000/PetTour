@@ -1,0 +1,75 @@
+ </div>
+<div id="trsapg">
+    <div class="album py-5 bg-light mx-auto d-block">
+      <div class="container mx-auto d-block">
+        <div class="row mx-auto d-block">
+          <div class="col-md-4 mx-auto d-block">
+            <div class="card mb-4 box-shadow mx-auto d-block">
+              <img class="card-img-top"
+                data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt=""
+                style="height: 100%; width: 100%; display: block;"
+                src="./assets/img/pet1.jpeg"
+                data-holder-rendered="true">
+
+              </div>
+            </div>
+          </div>
+          <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti </p>
+          <div class="row mx-auto d-block">
+            <div class="col-md-4 mx-auto d-block">
+              <div class="card mb-4 box-shadow mx-auto d-block">
+                <img class="card-img-top"
+                  data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt=""
+                  style="height: 100%; width: 100%; display: block;"
+                  src="./assets/img/pet2.jpeg"
+                  data-holder-rendered="true">
+  
+                </div>
+              </div>
+            </div>
+            <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti </p>
+            <div class="row mx-auto d-block">
+              <div class="col-md-4 mx-auto d-block">
+                <div class="card mb-4 box-shadow mx-auto d-block">
+                  <img class="card-img-top"
+                    data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt=""
+                    style="height: 100%; width: 100%; display: block;"
+                    src="./assets/img/pet3.jpeg"
+                    data-holder-rendered="true">
+    
+                  </div>
+                </div>
+              </div>
+              <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti </p>
+              <div class="row mx-auto d-block">
+                <div class="col-md-4 mx-auto d-block">
+                  <div class="card mb-4 box-shadow mx-auto d-block">
+                    <img class="card-img-top"
+                      data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt=""
+                      style="height: 100%; width: 100%; display: block;"
+                      src="./assets/img/pet4.jpeg"
+                      data-holder-rendered="true">
+      
+                    </div>
+                  </div>
+                </div>
+                <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti </p>
+                <div class="row mx-auto d-block">
+                  <div class="col-md-4 mx-auto d-block">
+                    <div class="card mb-4 box-shadow mx-auto d-block">
+                      <img class="card-img-top"
+                        data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt=""
+                        style="height: 100%; width: 100%; display: block;"
+                        src="./assets/img/pet5.jpeg"
+                        data-holder-rendered="true">
+        
+                      </div>
+                    </div>
+                  </div>
+                  <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti </p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </main>

@@ -1,0 +1,132 @@
+.meu_background {
+  color: rgb(0 0 0);
+  background-image: linear-gradient(
+179deg, #20bec5, #F7F7F6, #f7f7f7) !important;
+}
+
+.conj_text {
+  color: #001871!important;
+  font-size: 1.25em!important;
+  font-family: monospace!important;
+  font-variant-caps: unset!important;
+}
+
+div#msgdvlt {
+  font-size: larger;
+}
+
+#colstr h1 {
+  font-size: calc(1.375rem + 2.5vw)!important;
+  margin-top: 0;
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #000018f6;
+  font-size: 1.8cm;
+  font-family: system-ui;
+  font-style: oblique;
+}
+
+#colstr p {
+  color: #1a004cb3;
+  font-size: 1.2em;
+  font-family: initial;
+  font-style: oblique;
+  margin-top: 0;
+  margin-bottom: 3rem;
+}
+
+#colstr a {
+  color: #1a004cb3;
+  font-size: 0.99em;
+  font-family: initial;
+  font-style: oblique;
+}
+
+
+.jumbotron {
+  margin-bottom: 2rem;
+  background-image: linear-gradient(
+    179deg, #20bec5, #F7F7F6, #f7f7f7) !important;
+  border-radius: .3rem;
+
+  border-bottom-color: black;
+  border-bottom-style: outset;
+  border-bottom-width: thin;
+
+  border-left-color: black;
+  border-left-style: outset;
+  border-left-width: thin;
+
+  border-right-color: black;
+  border-right-style: outset;
+  border-right-width: thin;
+}
+
+a#btnenv {
+  color: #fff;
+  background-image: linear-gradient(to bottom, #c30a83, #2c83a59a)!important;
+  border-color: #001f40;
+}
+
+a#btnenv:hover {
+  color: #fff;
+  background-image: linear-gradient(to bottom, #da3da4, #64aecc9a)!important;
+  border-color: #001f40;
+}
+h1.colortitle {
+  color: #000018f6;
+  font-size: 1.8cm;
+  font-family: system-ui;
+  font-style: oblique;
+}
+p.colortitle {
+  color: #1a004cb3;
+  font-size: 1.6em;
+  font-family: initial;
+  font-style: oblique;
+}
+
+p.text {
+  color: #000000b5;
+  font-size: 1.0em;
+  font-style: oblique;
+  font-family: initial;
+}
+
+h2.colortitle {
+  color: #000000da;
+  font-size: 0.9cm;
+  font-family: system-ui;
+  font-style: oblique;
+}
+
+li.nav-item:hover {
+  font-size: 0.99em;
+}
+div#colstr {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+body {
+  padding-left: 0  !important;
+  padding-right: 0 !important;
+}
+
+.btn-primary {
+  color: rgb(0, 0, 0);
+  border-color: #005858!important;
+  background: #9497ee !important;
+}
+
+.btn-primary:hover {
+  color: rgb(0, 0, 0);
+  border-color: #013636!important;
+  background-color: #a0a3f1 !important;
+}

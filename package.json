@@ -1,0 +1,21 @@
+{
+  "name": "Site-com-node-e-EJS-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "multer": "^1.4.3",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.12.0-alpha.1",
+    "sqlite3": "^5.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./api/index.js"
+  },
+  "author": "Grupo TCC (Kauan, thiago, jose roberto, kaique, lucas)",
+  "license": "ISC"
+}

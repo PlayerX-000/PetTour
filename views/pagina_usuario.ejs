@@ -1,0 +1,283 @@
+<!--Incluir codigo ./header.ejs Na pagina Cuidadores-->
+<%- include('include/header.ejs')%>
+<!-- Inserir CSS apenas para esta pagina -->
+
+<!--EX:  <link rel="stylesheet" type="text/css" href="./caminho/caminho2.css" media="screen" /> -->
+ <link rel="stylesheet" type="text/css" href="/css/perfiluser.css" media="screen" /> 
+<script type="text/javascript">
+window.history.pushState("", "SeuPet", "/pagina_usuario");
+</script>
+
+<!-- ----------------------------------------------------------------------------------------- -->
+<!--Inicio do Body(Corpo da pagina)-->
+<body class="h-100 text-center meu_background">
+    
+    </div>
+    <script type="text/javascript" src="/js/inseredados.js"></script>
+    <div id="elementmain" class="imagemtela">
+        <div id="colstr">
+    
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!--Importando Scripts Para Nossa Pagina             -->
+<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+        crossorigin="anonymous"></script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+        integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+        crossorigin="anonymous"></script>
+  
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+  
+        <script 
+        src = "https://code.jquery.com/jquery-3.4.1.min.js" 
+        Integrity = "sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo =" 
+        crossorigin = "anonymous" > </script>
+
+<!--Fim da Chamada-->
+
+
+  <!--Chama Um arquivo JS para a Pagina                                                            -->
+  <!--Por padrao todas as pastas estao configuradas no index.js para ter como padrao a pasta public-->
+  <!--EX: <script type="text/javascript" src="/js/initial.js"></script>                            -->
+  <!--Qualquer outro caminho que nao derive da pasta public deve ser especificado corretamente     -->
+
+
+
+    <!--Menu Superior da pagina(Header)-->
+
+
+<header>
+
+    <div class="group">
+    
+      <nav id="primeiramenu">
+        <a href="http://www.facebook.com/"><img id="icon" src="./assets/facebook.png"  width="32px;"></a>
+        <a href="http://www.instagram.com/"><img id="icon" src="./assets/instagram.png" width="32px;"></a>
+        <a href="http://www.github.com/"><img id="icon" src="./assets/github.png"    width="32px;"></a>
+      </nav>
+    
+      <nav id="segundamenu">
+    <div>
+      <img src="./assets/titulo.ico" width="100px;">
+    <h1>Pet Tour - 
+      Passeios com Pet
+    </h1>
+    </div>
+    </nav>
+    
+      <nav id="terceiramenu">
+    <div>
+    
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a href="../principal"
+                    class="linksmenu">Principal</a></li>
+            <li class="nav-item"><a href="/pesquisa" class="linksmenu">Pesquisa</a></li>
+    
+            <li class="nav-item"><a href="/pagina_usuario" class="linksmenu">Perfil</a></li>
+            <li class="nav-item"><a href="/mais" class="linksmenu"
+                aria-current="page">Mais Sobre</a></li>
+                <li class="nav-item"><a href="/suporte" class="linksmenu">Suport</a></li>
+            <li class="nav-item"><a 
+                    onclick="deletardado()"  href="/login" class="nav-link">logout</a></li>
+    </ul>
+    </div>
+      </nav>
+    
+    </div>
+    
+          </header>
+  <!--Fim do Menu superior-->
+
+  <!--Inicio Do Corpo Da Pagina-->
+
+  <!--Mostra Usuarios Cadastrados-->
+  
+  <div id="pai">
+  <section class="infor">
+      
+    <nav id="imguser">
+
+
+        <div id="menucont2"><nav id="partsuperior">
+
+        <div class="img1"><a href="" class="thumbnail"><img src="data:image/png;base64,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" alt="" id="imgperfil"></a></div>
+       
+        <form method="POST" action="/altimg" name="trocaimg"  id="mudaimgform"  enctype="multipart/form-data">
+
+
+
+<div class="form-image">
+
+    <label for="image"><a>Foto Perfil</a></label>
+
+    <input style="visibility: hidden" name="idtrocimg" id="idformimg" value="" > </input>
+
+    <input style="visibility: hidden" name="emailtrocimg" id="emailformimg" value="" > </input>
+
+    <input name="image" type="file" class="form-control" id="imagenup" required>
+
+  </div><br>
+
+  <nav id="centralizapequeno">
+<button class="btn btn-primary mx-auto d-block"  id="envimgdata" type="submit">Alterar Imagem</button>
+</nav>
+
+<div class="d-none" id="submitSuccessMessage">Form submission successful!</div>
+<div class="d-none" id="submitErrorMessage">Form submission failed!</div>
+
+</form>
+</nav></div>
+    </nav>
+      <nav id="dados">
+        <form action="/pagina_usuario" method="POST">
+            <section id="segundapartecorpo">
+                <div id="menucont22">    
+    <nav id="conteudo">
+<label  for="identificador" >Id:</label>
+<input class="form-control" readonly="readonly" name="iduser" id="inputinfouserid" value=""></input>
+</nav>
+<nav id="conteudo">
+    <label  for="rua" >Rua:</label>
+<input class="form-control" name="rua" id="inputinfouserrua" value=""></input>
+</nav>
+<nav id="conteudo">
+     <label  for="cidade" >Cidade:</label>
+<input class="form-control" name="cidade" id="inputinfousercidade" value=""></input>
+</nav>
+<nav id="conteudo">
+    <label  for="estado" >Estado:</label>
+<input class="form-control" name="estado" id="inputinfouserestado" value=""></input>
+</nav>
+<nav id="conteudo">
+    <label  for="cep" >Cep:</label>
+<input class="form-control" name="cep" id="inputinfousercep" value=""></input>
+</nav>
+<nav id="conteudo">
+    <label  for="usuario" >Usuario:</label>
+<input class="form-control" name="usuario" id="inputinfouserusuario" value=""></input>
+</nav>
+<nav id="conteudo">
+    <label  for="senha" >Senha:</label>
+<input class="form-control" name="senha" id="inputinfousersenha" value=""></input>
+</nav>
+<nav id="conteudo">
+    <label  for="email" >E-mail:</label>
+<input class="form-control" name="email" id="inputinfouseremail" value=""></input>
+</nav>
+<nav id="conteudo">
+    <label  for="sobrenome" >Sobrenome:</label>
+<input class="form-control" name="sobrenome" id="inputinfousersobrenome" value=""></input>
+</nav>
+<nav id="conteudo">
+    <label  for="name" >Nome:</label>
+<input class="form-control" name="name" id="inputinfousernome" value=""></input>
+</nav>
+<nav id="conteudo">
+    <label  for="bairro" >Bairro:</label>
+<input class="form-control" name="bairro" id="inputinfouserbairro" value=""></input>
+</nav>
+<nav id="partsuperior">
+<button class="btn btn-primary mx-auto d-block"  type="submit">Alterar Dados</button>
+</nav>
+</div>
+</section>
+</form>
+</nav>
+</section>
+
+<hr class="hr3">
+
+<section id="segundapartecorpo">
+
+    <div id="menucont2">
+
+     
+      <span id="limite" class="badge badge-pill badge-light">0/1</span>
+        
+    <nav id="partsuperior">
+        <span title="Visualizar Ofertas de trabalho que voce abriu"><button id="btnoferta" class="btn btn-primary mx-auto d-block"  type="submit">Trabalhos</button></span>
+    </nav>
+    <nav id="partsuperior2">
+        <span title="Visualizar Pedidos para que cuidem de seu(s) pets"><button id="btnpedido" class="btn btn-primary mx-auto d-block"  type="submit">Pedidos</button></span>
+    </nav>
+
+
+<div class="container">
+<div id="usuarios">
+
+    </div>
+</div>
+
+  <a id="btnpopup" style="color: rgb(255, 255, 255);" class="btn btn-primary my-2">Criar</a>
+
+  <script type="text/javascript" src="/js/page_user.js"></script>
+
+<script type="text/javascript" src="/js/very.js"></script>
+
+
+
+  <div id="popup2">
+    <div class="containerpopup">
+ 
+    <button value="criarpedido" onclick="salvadados(this.value)" class="btn tamanhobtn btn-primary mx-auto d-block">Cria Pedido</button>
+  
+
+
+
+
+    <button value="criaroferta" onclick="salvadados(this.value)" class="btn tamanhobtn btn-primary mx-auto d-block">Criar Oferta</button>
+
+    </div>
+</div>
+
+
+</div>
+</section>
+
+<!--Fim Do Corpo Da Pagina-->
+</div>
+</div>
+
+
+<div id="popup" class="popup">
+    <section id="secaopopup">
+      <div id="popin">
+  <nav>
+    INFORMAÇÔES
+  </nav>
+
+  <nav id="nomepop">
+  </nav>
+
+  <nav id="emailpop">
+  </nav>
+
+  <nav  id="ceppop">
+  </nav>
+
+  <nav id="cidadepop">
+  </nav>
+
+  <nav id="bairropop">
+  </nav>
+
+  <nav id="ruapop">
+  </nav>
+</div>
+    </section>
+
+  </div>
+
+
+<!--Inicio Do Footer(Codigo do ./Footer.Ejs-->
+<%- include('include/footer.ejs')%>

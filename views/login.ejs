@@ -1,0 +1,144 @@
+<!--Incluir codigo ./header.ejs Na pagina Cuidadores-->
+<%- include('include/header.ejs')%>
+
+<!-- Inserir CSS apenas para esta pagina -->
+
+<!--EX:  <link rel="stylesheet" type="text/css" href="/caminho/caminho2.css" media="screen" /> -->
+<link rel="stylesheet" type="text/css" href="/css/login.css" media="screen" />
+<!--***-->
+
+<!-- ----------------------------------------------------------------------------------------- -->
+<!--Inicio do Body(Corpo da pagina)-->
+<body class="h-100 text-center meu_background">
+    <div class="imagemtela">
+    
+      <div id="colstr">
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!--Importando Scripts Para Nossa Pagina             -->
+
+<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+        crossorigin="anonymous"></script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+        integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+        crossorigin="anonymous"></script>
+  
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+  
+        <script 
+        src = "https://code.jquery.com/jquery-3.4.1.min.js" 
+        Integrity = "sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo =" 
+        crossorigin = "anonymous" > </script>
+<!--Fim da Chamada-->
+
+
+  <!--Chama Um arquivo JS para a Pagina                                                            -->
+  <!--Por padrao todas as pastas estao configuradas no index.js para ter como padrao a pasta public-->
+ 
+  <!--EX: <script type="text/javascript" src="/js/initial.js"></script>                            -->
+ 
+  <!--Qualquer outro caminho que nao derive da pasta public deve ser especificado corretamente     -->
+
+
+
+  <!--Menu Superior da pagina(Header)-->
+  <header>
+
+    <div class="group">
+    
+      <nav id="primeiramenu">
+        <a href="http://www.facebook.com/"><img id="icon" src="./assets/facebook.png"  width="32px;"></a>
+        <a href="http://www.instagram.com/"><img id="icon" src="./assets/instagram.png" width="32px;"></a>
+        <a href="http://www.github.com/"><img id="icon" src="./assets/github.png"    width="32px;"></a>
+      </nav>
+    
+      <nav id="segundamenu">
+    <div>
+      <img src="./assets/titulo.ico" width="100px;">
+    <h1>Pet Tour - 
+      Passeios com Pet
+    </h1>
+    </div>
+    </nav>
+    
+      <nav id="terceiramenu">
+    <div>
+    
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a href="../principal"
+                    class="linksmenu">Principal</a></li>
+            <li class="nav-item"><a href="/pesquisa" class="linksmenu">Pesquisa</a></li>
+    
+            <li class="nav-item"><a href="/pagina_usuario" class="linksmenu">Perfil</a></li>
+            <li class="nav-item"><a href="/mais" class="linksmenu"
+                aria-current="page">Mais Sobre</a></li>
+                <li class="nav-item"><a href="/suporte" class="linksmenu">Suport</a></li>
+    </ul>
+    </div>
+      </nav>
+    
+    </div>
+    
+          </header>
+  <!--Fim do Menu superior-->
+
+
+  <!--Inicio Do Corpo Da Pagina-->
+
+
+  <!--Inicio Do Formulario De LOGIN-->
+
+    
+  <div class="login-main-text">
+   
+   <div>
+      <img src="./assets/logo.ico" width="140em;">
+      </div>
+   <h1 class="colortitle">Seja<br> Bem-Vindo</h1>
+   <p class="colortitle">Faça Login Em Sua Conta</p>
+
+   <p class="colortitle">para Poder criar uma oferta de trabalho para que cuidem de seu pet ou poder pesquisar pedidos de outras pessoas</p>
+
+</div>
+
+      <div class="login-form" id="loginpage">
+
+            <form id="formdd">
+               <div class="form-group">
+                  <label for="email"><p class="text">E-mail</p></label>
+                  <input name="Email" type="text" class="form-control" id="emailinput" placeholder="exemplo@gmail.com" required>
+                  <small id="passwordHelpInlineemail" class="text-muted"> </small>
+               </div>
+ 
+               <div class="form-group">
+                  <label for="senha"><p class="text">Senha</p></label>
+                  <input name="Senha" type="text" class="form-control" id="senhainput" placeholder="senha" required>
+                  <small id="passwordHelpInlinesenha" class="text-muted"> </small>
+               </div>
+               <div class="butaos">
+                  <button type="submit" id="btnenv" class="btn btn-primary" role="button">Logar</button>
+            </div>
+            </form>
+            <a id="cadastraruser" class="text-blue" href="/cadastro">Cadastrar</a>
+
+            </div>
+            <hr class="hr1">
+  <!--Fim Do Formulario De LOGIN-->
+  <!--Fim Do Corpo Da Pagina    -->
+
+
+<script type="text/javascript" src="/js/loginpage.js"></script>
+<script type="text/javascript" src="/js/enviadadosajax.js"></script>
+<!--Inicio Do Footer(Codigo do ./Footer.Ejs-->
+<%- include('include/footer.ejs')%>

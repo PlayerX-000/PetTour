@@ -1,0 +1,149 @@
+<!--Incluir codigo ./header.ejs Na pagina Cuidadores-->
+<%- include('include/header.ejs')%>
+
+<!-- Inserir CSS apenas para esta pagina -->
+
+<!--EX:  <link rel="stylesheet" type="text/css" href="/caminho/caminho2.css" media="screen" /> -->
+
+
+<link rel="stylesheet" type="text/css" href="/css/mais.css" media="screen" />
+<!-- ----------------------------------------------------------------------------------------- -->
+<!--Inicio do Body(Corpo da pagina)-->
+<body class="text-center meu_background">
+  <div class="imagemtela">
+  
+    <div id="colstr">
+    
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!--Importando Scripts Para Nossa Pagina             -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+        crossorigin="anonymous"></script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+        integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+        crossorigin="anonymous"></script>
+  
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+  
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<!--Fim da Chamada-->
+
+
+  <!--Chama Um arquivo JS para a Pagina                                                            -->
+  <!--Por padrao todas as pastas estao configuradas no index.js para ter como padrao a pasta public-->
+  <!--EX: <script type="text/javascript" src="/js/initial.js"></script>                            -->
+  <!--Qualquer outro caminho que nao derive da pasta public deve ser especificado corretamente     -->
+
+
+
+    <!--Menu Superior da pagina(Header)-->
+    <header>
+
+      <div class="group">
+      
+        <nav id="primeiramenu">
+          <a href="http://www.facebook.com/"><img id="icon" src="./assets/facebook.png"  width="32px;"></a>
+          <a href="http://www.instagram.com/"><img id="icon" src="./assets/instagram.png" width="32px;"></a>
+          <a href="http://www.github.com/"><img id="icon" src="./assets/github.png"    width="32px;"></a>
+        </nav>
+      
+        <nav id="segundamenu">
+      <div>
+        <img src="./assets/titulo.ico" width="100px;">
+      <h1>Pet Tour - 
+        Passeios com Pet
+      </h1>
+      </div>
+      </nav>
+      
+        <nav id="terceiramenu">
+      <div>
+      
+          <ul class="nav nav-pills">
+              <li class="nav-item"><a href="../principal"
+                      class="linksmenu">Principal</a></li>
+              <li class="nav-item"><a href="/pesquisa" class="linksmenu">Pesquisa</a></li>
+      
+              <li class="nav-item"><a href="/pagina_usuario" class="linksmenu">Perfil</a></li>
+             
+                  <li class="nav-item"><a href="/suporte" class="linksmenu">Suporte</a></li>
+      </ul>
+      </div>
+        </nav>
+      
+      </div>
+      
+            </header>
+  <!--Fim do Menu superior-->
+
+  <!--Inicio Do Corpo Da Pagina-->
+
+
+<!--Inicio Do Main Formando o Corpo da Pagina(./mais.ejs)-->
+
+        <main role="main">
+            <!-- Principal jumbotron, para a principal mensagem de marketing ou call to action -->
+            <div class="jumbotron">
+              <div class="container">
+                <h2 class="colortitle">Olá, Seja Bem-Vindo</h2>
+                <p class="colortitle">Nós viemos lhe oferecer, o uma ajuda pratic e facil, seja para oferecer seus serviços ou solicitar </p>
+               
+              <div class="imgsicon mx-auto">
+                  <img class="card-img-top"
+                    data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt=""
+                    style="width: calc(100% - 84%); display: block;"
+                    src="./assets/img/entry.png"
+                    data-holder-rendered="true">
+                    <img class="card-img-top"
+                    data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt=""
+                    style="width: calc(100% - 85%); display: block;"
+                    src="./assets/img/pet22.png"
+                    data-holder-rendered="true">
+                    <img class="card-img-top"
+                    data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt=""
+                    style="width: calc(100% - 85%); display: block;"
+                    src="./assets/img/pet33.png"
+                    data-holder-rendered="true">
+               
+              </div>
+             </div>
+         
+            <div class="container">
+              <!-- Exemplo de linha de colunas -->
+              <div class="row">
+                <div class="col-md-4">
+                  <h4 class="colortitle">Praticidade</h4>
+                  <p class="text">Precisa Viajar ou Sair por um tempo, e não tem com quem deixar seu pet? isso nao sera mais problema, nosso time de desenvolvedores trabalham constantemente para elevar a qualidade ao prestar serviços a você, nao perca tempo e use de forma siples nosso site!!!</p>
+                 <nav id="btao">
+                  <a id="btnenv" class="btn btn-secondary" href="/cuidadores" role="button">Ver detalhes »</a>
+                </nav>
+                </div>
+                <div class="col-md-4" id="meio01">
+                  <h4 class="colortitle">Nova Realidade</h4>
+                  <p class="text">Apos o surto global do novo corona virus, nossa realidade mudou completamente, pensando nisso e em voce, nosso cliente, nos criamos esta plataforma, par atender pessoas que nao tem tempo pra dar atencao ao pet, com passeam, dar banho, etc. Venha e procure ja por nossos serviços</p> 
+                </div>
+                <div class="col-md-4">
+                  <h4 class="colortitle">Mostre ao Publico</h4>
+                  <p class="text">Caso você esteja procurando por uma renda extra, no tempo livre, nos oferecemos a oportunidade de você digulgar seu interesse em cuidar de pets, basta se inscrever e esperar um cliente fazer o pedido, simples e facil!!!</p>
+                  <nav id="btao">
+                  <a id="btnenv" class="btn btn-secondary" href="/cadastro" role="button">Ver detalhes »</a>
+                </nav>
+                </div>
+              </div>
+              <hr>
+            </div>  
+          </main>
+  <!--Fim Do corpo da pagina Mais.ejs-->
+</div>
+</div>
+<!--Inicio Do Footer(Codigo do ./Footer.Ejs-->
+<%- include('include/footer.ejs')%>

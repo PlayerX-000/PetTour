@@ -1,0 +1,234 @@
+<!--Inclusao do codigo ./header.ejs/ Na pagina Cadastro-->
+<%- include('include/header.ejs')%>
+
+
+<!-- Inserir CSS apenas para esta pagina -->
+
+<!--EX:  <link rel="stylesheet" type="text/css" href="/caminho/caminho2.css" media="screen" /> -->
+
+<link rel="stylesheet" type="text/css" href="/css/cadastro.css" media="screen" />
+
+<!-- ----------------------------------------------------------------------------------------- -->
+<body class="h-100 text-center meu_background">
+  <div class="imagemtela">
+   
+    <div id="colstr">
+  <!--Chama Escripts Externos-->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+      crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+      integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+      crossorigin="anonymous"></script>
+  
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"></script>
+<!--Fim da Chamada-->
+
+
+  <!--Chama Um arquivo JS para a Pagina                                                            -->
+  <!--Por padrao todas as pastas estao configuradas no index.js para ter como padrao a pasta public-->
+  <!--EX: <script type="text/javascript" src="/js/initial.js"></script>                            -->
+  <!--Qualquer outro caminho que nao derive da pasta public deve ser especificado corretamente     -->
+
+
+  <!--Menu Superior da pagina(Header)-->
+ 
+  <header>
+
+    <div class="group">
+    
+      <nav id="primeiramenu">
+        <a href="http://www.facebook.com/"><img id="icon" src="./assets/facebook.png"  width="32px;"></a>
+        <a href="http://www.instagram.com/"><img id="icon" src="./assets/instagram.png" width="32px;"></a>
+        <a href="http://www.github.com/"><img id="icon" src="./assets/github.png"    width="32px;"></a>
+      </nav>
+    
+      <nav id="segundamenu">
+    <div>
+      <img src="./assets/titulo.ico" width="100px;">
+    <h1>Pet Tour - 
+      Passeios com Pet
+    </h1>
+    </div>
+    </nav>
+    
+      <nav id="terceiramenu">
+    <div>
+    
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a href="../principal"
+                    class="linksmenu">Principal</a></li>
+            <li class="nav-item"><a href="/pesquisa" class="linksmenu">Pesquisa</a></li>
+    
+            <li class="nav-item"><a href="/pagina_usuario" class="linksmenu">Perfil</a></li>
+            <li class="nav-item"><a href="/mais" class="linksmenu"
+                aria-current="page">Mais Sobre</a></li>
+                <li class="nav-item"><a href="/suporte" class="linksmenu">Suport</a></li>
+    </ul>
+    </div>
+      </nav>
+    
+    </div>
+    
+          </header>
+<!--Fim do Menu superior-->
+
+<!--Formulario de Cadastro(INICIO)-->   
+<div class="containerprim">
+<div class="nav-item">
+  <div class="nav-item">
+<div class="container-fluid  d-flex  align-items-center text-center">
+<div id="colstr">
+<div>
+<img src="./assets/cadastro.ico" width="100px;">
+</div>
+<h1 class="h1-slider">Realize seu Cadastro</h1>
+<p class="p-slider">apos realizar o cadastro você estara incluido em nosso banco de dados, podendo receber pedidos de nossos clientes</p>
+<div class="imgsmenu">
+<img src="./assets/img/pet22.png" width="100px;">
+<img src="./assets/img/pet33.png" width="100px;">
+<img src="./assets/img/entry.png" width="100px;">
+<img src="./assets/favicon.ico" width="100px;">
+<img src="./assets/img/pet6.png" width="100px;">
+<img src="./assets/img/pot11.png" width="100px;">
+</div>
+</div>
+</div>
+</div>
+
+
+<form method="POST" action="/cadastro" name="formulario"
+enctype="multipart/form-data">
+<div id="formulario" class="nav-item">
+  <div id="colstr">
+
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <div class="labl">
+      <label for="validationServer01"><a>Primeiro nome</a></label></div>
+      <input name="Nome" type="text" class="form-control " id="validationServer01" placeholder="Nome"  required>
+      <div class="valid-feedback">
+        Tudo certo!
+      </div>
+    </div>
+    <div class="col-md-6 mb-3">
+      <div class="labl">
+      <label for="validationServer02"><a>Sobrenome</a></label></div>
+      <input name="Sobrenome" type="text" class="form-control " id="validationServer02" placeholder="Sobrenome"  required>
+      <div class="valid-feedback">
+        Tudo certo!
+      </div>
+    </div>
+
+ 
+
+    <div class="col-md-6 mb-3">
+      <div class="labl">
+      <label id="avisoemail" for="inputEmail"  class="control-label"><a><%= msg %></a></label></div>
+      <input name="Email" id="inputEmail" class="form-control " placeholder="Digite seu E-mail" type="email" 
+        data-error="Por favor, informe um e-mail correto." required>
+      <div class="help-block with-errors"></div>
+    </div>
+    <div class="col-md-6 mb-3">
+      <div class="labl">
+      <label for="senha1"><a>senha</a></label></div>
+      <input name="Senha" type="text" class="form-control " id="senha1" placeholder="Senha" required>
+      <div class="invalid-feedback">
+        Por Favor Insira uma Senha
+      </div>
+    </div>
+
+    <div class="col-md-6 mb-3">
+      <div class="labl">
+        <label for="validationServerUsername"><a>Usuario</a></label></div>
+        <input name="Usuario" type="text" class="form-control " id="validationServerUsername" placeholder="Usuário" aria-describedby="inputGroupPrepend3" required>
+        <div class="invalid-feedback">
+          Por favor, escolha um nome de usuário.
+        </div>
+    </div>
+
+  
+    <div class="col-md-6 mb-3">
+      <div class="labl">
+      <label for="validationServer05"><a>Cep</a></label></div>
+      <input name="Cep" type="text" class="form-control " id="validationServer05" placeholder="CEP">
+      <div class="invalid-feedback">
+        Por favor, informe um CEP válido.
+      </div>
+    </div>
+  </div>
+
+
+  <div class="form-group">
+    <div class="labl">
+    <label for="estadoi"><a>Estado</a></label></div>
+    <input name="Estado" type="text" class="form-control" id="estadoi" placeholder="Ex: São Paulo" required>
+  </div>
+  <div class="form-group">
+    <div class="labl">
+    <label for="cidadei"><a>Cidade</a></label></div>
+    <input name="Cidade" type="text" class="form-control" id="cidadei" placeholder="Ex: recife" required>
+  </div>
+  <div class="form-group">
+    <div class="labl">
+    <label for="ruai"><a>Rua</a></label></div>
+    <input name="Rua" type="text" class="form-control" id="ruai" placeholder="Ex: marios rosario" required>
+  </div>
+  <div class="form-group">
+    <div class="labl">
+    <label for="bairroi"><a>Bairro</a></label></div>
+    <input name="Bairro"type="text" class="form-control" id="bairroi" placeholder="Ex: bom senhor" required>
+  </div>
+
+  <div class="form-image">
+ 
+    <label for="image"><a>Adicionar imagem de perfil:</a></label>
+    <input name="image" type="file" class="form-control" id="image" required>
+  </div><br>
+
+
+
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input " type="checkbox"  id="invalidCheck3" required>
+      <label class="form-check-label" for="invalidCheck3">
+        <a>Concordo com os termos e condições
+      </a></label>
+
+      <div class="invalid-feedback">
+        Você deve concordar, antes de continuar.
+      </div>
+    </div>
+  </div>
+ 
+  <button class="btn btn-primary mx-auto d-block"  type="submit">Enviar</button>
+
+
+  <a id="logaruser" class="text-blue" href="/login">Logar</a>
+</div>
+</div>
+</form>
+
+<!--Formulario de Cadastro(FIM)--> 
+
+<!--Uso de API para Identificar Endereço como: Bairro, Rua, Cidade, Estado. Etc...
+(Script Responsavel tambem por Inserir esses dados de forma automatica no formulario)-->
+
+<script type="text/javascript" src="/js/cadastro.js"></script>
+
+</div>
+</div>
+<!--Inicio Do Footer(Codigo do ./Footer.Ejs-->
+<%- include('include/footer.ejs')%>

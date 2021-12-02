@@ -1,0 +1,151 @@
+h1.colortitle {
+    color: #ff002e80;
+    font-size: 1.8cm;
+    font-family: system-ui;
+    font-style: oblique;
+}
+
+.meu_background {
+    color: rgb(0 0 0);
+    background-image: linear-gradient(
+  179deg, #20bec5, #F7F7F6, #f7f7f7) !important;
+    width: 100%;
+    height: auto;
+    margin: 0%;
+    padding: 0%;
+}
+
+#colstr h1 {
+    font-size: calc(1.375rem + 2.5vw)!important;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #000018f6;
+    font-size: 1.8cm;
+    font-family: system-ui;
+    font-style: oblique;
+}
+
+#colstr p {
+    color: #1a004cb3;
+    font-size: 1.2em;
+    font-family: initial;
+    font-style: oblique;
+    margin-top: 0;
+    margin-bottom: 3rem;
+}
+
+#colstr a {
+    color: #1a004cb3;
+    font-size: 0.99em;
+    font-family: initial;
+    font-style: oblique;
+}
+
+
+button#btnenv {
+    color: #fff;
+    border-color: #005858!important;
+    background-color: #adafec !important;
+}
+
+button#btnenv:hover {
+    color: #fff;
+    border-color: #013636!important;
+    background-color: #a0a3f1 !important;
+}
+.conj_text {
+    color: #001871;
+    font-size: 1.25em;
+    font-family: monospace;
+    font-variant-caps: unset;
+}
+
+
+
+.imagemtela {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding-bottom: 3em;
+    position: relative;
+    right: 0;
+    text-align: center;
+    top: 0;
+}
+
+
+  select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+
+    display: inline-block;
+    height: 100%;
+    padding: 4px 6px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #555555;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    vertical-align: middle;
+    margin: 0px;
+    width: 100%
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+ul.nav.nav-pills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+li.nav-item:hover {
+    font-size: 0.99em;
+}
+
+div#colstr {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #03797445!important;
+    border-radius: .3rem;
+}
+
+.baixo {
+    color: #3c3c3c;
+}
+
+input#Email {
+    height: 3em !important;
+    width: 60%;
+}
+
+.text {
+    color: #1a004cb3;
+    font-size: 1.2em;
+    font-family: initial;
+    font-style: oblique;
+}

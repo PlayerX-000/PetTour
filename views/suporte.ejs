@@ -1,0 +1,126 @@
+<!--Incluir codigo ./header.ejs Na pagina Cuidadores-->
+<%- include('include/header.ejs')%>
+
+<!-- Inserir CSS apenas para esta pagina -->
+
+<!--EX:  <link rel="stylesheet" type="text/css" href="/caminho/caminho2.css" media="screen" /> -->
+<link rel="stylesheet" type="text/css" href="/css/suport.css" media="screen" />
+
+
+<!-- ----------------------------------------------------------------------------------------- -->
+<!--Inicio do Body(Corpo da pagina)-->
+<body class="meu_background">
+  <div class="imagemtela">
+    <div id="colstr">
+    
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!--Importando Scripts Para Nossa Pagina             -->
+<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+    crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+    integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+    crossorigin="anonymous"></script>
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+<!--Fim da Chamada-->
+
+
+  <!--Chama Um arquivo JS para a Pagina                                                            -->
+  <!--Por padrao todas as pastas estao configuradas no index.js para ter como padrao a pasta public-->
+  <!--EX: <script type="text/javascript" src="/js/initial.js"></script>                            -->
+  <!--Qualquer outro caminho que nao derive da pasta public deve ser especificado corretamente     -->
+
+
+
+    <!--Menu Superior da pagina(Header)-->
+    <header>
+
+      <div class="group">
+      
+        <nav id="primeiramenu">
+          <a href="http://www.facebook.com/"><img id="icon" src="./assets/facebook.png"  width="32px;"></a>
+          <a href="http://www.instagram.com/"><img id="icon" src="./assets/instagram.png" width="32px;"></a>
+          <a href="http://www.github.com/"><img id="icon" src="./assets/github.png"    width="32px;"></a>
+        </nav>
+      
+        <nav id="segundamenu">
+      <div>
+        <img src="./assets/titulo.ico" width="100px;">
+      <h1>Pet Tour - 
+        Passeios com Pet
+      </h1>
+      </div>
+      </nav>
+      
+        <nav id="terceiramenu">
+      <div>
+      
+          <ul class="nav nav-pills">
+              <li class="nav-item"><a href="../principal"
+                      class="linksmenu">Principal</a></li>
+              <li class="nav-item"><a href="/pesquisa" class="linksmenu">Pesquisa</a></li>
+      
+              <li class="nav-item"><a href="/pagina_usuario" class="linksmenu">Perfil</a></li>
+              <li class="nav-item"><a href="/mais" class="linksmenu"
+                  aria-current="page">Mais Sobre</a></li>
+                  
+      </ul>
+      </div>
+        </nav>
+      
+      </div>
+      
+            </header>
+  <!--Fim do Menu superior-->
+
+  <!--Inicio Do Corpo Da Pagina-->
+
+        <form action="/suport" method="POST">
+        <div id="jummar">
+        <section class="jumbotron text-center">
+        <div class="container">
+        <h2 class=" colortitle ">Suporte</h2>
+        <p class="jumbotron-heading">Para dar prosseguimento a sua equisição</p>
+        <br>
+        <p>
+          <div class="form-group">
+            <label id="validateemail" for="Email" class="text control-label">Email: </label>
+            <input name="Email" id="Email" type="text" class=""  placeholder="Email"  required>
+            <div class="valid-feedback">
+            Tudo certo!
+            </div>
+          </div>
+            <div class="form-group">
+              <label id="avisosolicitacao" for="campo_suport"  class="control-label"> <%= msg %></label>
+              <textarea name="suptext" class="form-control" id="campo_suport" rows="4"  placeholder="Texto"  required></textarea>
+              <small id="passwordHelpBlock" class="form-text baixo">
+              Descreva o Problema Que esta infrentando Para que possamos resolve-lo o mais rapido possivel :)
+              </small>
+            </div>
+            <button id="btnenv" class="btn btn-primary mx-auto d-block"  type="submit">Prosseguir</button>
+        </p>
+        </div>
+        </section>
+        </div>
+        </form>
+   <!--Fim Do Corpo Da Pagina-->
+   <script type="text/javascript" src="/js/suport.js"></script>
+  </div>
+</div>
+<!--Inicio Do Footer(Codigo do ./Footer.Ejs-->
+<%- include('include/footer.ejs')%>
