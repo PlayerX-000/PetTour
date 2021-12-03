@@ -3,9 +3,9 @@ $('#icongit').click(function() {
    } );
 
    $('#iconface').click(function() { 
-    document.location = 'https://facebook.com.br/';
+    document.location = 'https://facebook.com/';
    } );
 
    $('#iconinsta').click(function() { 
-    document.location = 'https://instagram.com.br/';
+    document.location = 'https://instagram.com/';
    } );
