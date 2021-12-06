@@ -1,0 +1,5 @@
+# ignora quaisquer diretórios chamados "metadata"
+node_modules/
+package-lock.json
+database/tccapp.sqlite
+.gitignore.swp
