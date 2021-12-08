@@ -95,12 +95,15 @@
         <section class="jumbotron text-center">
         <div class="container">
         <h2 class=" colortitle ">Suporte</h2>
-        <p class="jumbotron-heading">Para dar prosseguimento a sua equisição</p>
+        <p class="jumbotron-heading">Preencha os campos corretamente, para dar continuidade</p>
         <br>
         <p>
           <div class="form-group">
             <label id="validateemail" for="Email" class="text control-label">Email: </label>
             <input name="Email" id="Email" type="text" class=""  placeholder="Email"  required>
+            <small id="passwordHelpBlock" class="form-text baixo">
+             Insira um e-mail valido!!!
+              </small>
             <div class="valid-feedback">
             Tudo certo!
             </div>
@@ -109,7 +112,7 @@
               <label id="avisosolicitacao" for="campo_suport"  class="control-label"> <%= msg %></label>
               <textarea name="suptext" class="form-control" id="campo_suport" rows="4"  placeholder="Texto"  required></textarea>
               <small id="passwordHelpBlock" class="form-text baixo">
-              Descreva o Problema Que esta infrentando Para que possamos resolve-lo o mais rapido possivel :)
+              Descreva o Problema Que esta enfrentando Para que possamos ajuda-lo o mais rapido possivel :)
               </small>
             </div>
             <button id="btnenv" class="btn btn-primary mx-auto d-block"  type="submit">Prosseguir</button>

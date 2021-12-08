@@ -87,7 +87,6 @@ $('#btnoferta').on('click', function(){
                        <span id="identfic" class="badge badge-pill">Pet: `+obj.categoria+`</span>
                        <span id="identfic" class="badge badge-pill">Telefone: `+obj.contato+`</span>
                        <span id="identfic" class="badge badge-pill">Valor minimo a ser cobrado: `+obj.valor +` Reais</span>
-                       <span id="identfic" class="badge badge-pill">Disponivel por : `+obj.tempo +` Dias</span>
                        <span id="identfic" class="badge badge-pill">Nome: `+obj.nome +`</span>
              <button type="texton" value="`+obj.email+`" onclick="mostid(this.value)" class="btn btn-primary btn-sm">Ver Perfil</button>
            </div>

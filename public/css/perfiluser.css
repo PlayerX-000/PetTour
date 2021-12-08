@@ -55,7 +55,7 @@ section.infor {
 
   .meu_background {
     background-image:url('../assets/img/fundo.jpeg') !important;
-    background-size: contain !important;
+    background-size: cover !important;
   }
 
 nav#conteudo {
@@ -136,13 +136,13 @@ div#usuarios {
   left: 0;
   margin: auto;
   right: 0;
-  width: calc(100% - 100px);
+  width: max-content;
   color: black;
-  height:min-content;
+  height:max-content;
   padding: 15px;
-  border: solid 1px #ff0f0f;
-  background-image: linear-gradient(
-    179deg, #20bec5, #F7F7F6, #f7f7f7) !important;
+  border: solid 1px black;
+  background-image: linear-gradient( 
+    179deg, #20bdc5bb, #37c6cfd1, #0059ffa2) !important;
 }
 
 section#secaopopup {
@@ -205,13 +205,13 @@ nav#fecharpop2 {
     left: 0;
     margin: auto;
     right: 0;
-    width: calc(100% - 100px);
+    width: max-content;
     color: black;
-    height: min-content;
+    height: max-content;
     padding: 15px;
-    border: solid 1px #ff0f0f;
-    background-image: linear-gradient(
-      179deg, #20bec5, #4eb2b8, #f7f7f7) !important;
+    border: solid 1px black;
+    background-image: linear-gradient( 
+      179deg, #20bdc5bb, #37c6cfd1, #0059ffa2) !important;
       }
   
   section#secaopopup {
@@ -373,7 +373,7 @@ padding: 0;
   
     .meu_background {
       background-image:url('../assets/img/fundo.jpeg') !important;
-      background-size: contain !important;
+      background-size: cover !important;
     }
   
   nav#conteudo {
@@ -399,8 +399,7 @@ padding: 0;
   min-height: 20px;
   padding: 19px;
   margin-bottom: 20px;
-  background-image: linear-gradient(
-    179deg, #18a4ac, #7ec4c0, #f7f7f7) !important;
+  background-image: url(../assets/img/fundo.jpeg) !important;
   border: #0067a240!important;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;

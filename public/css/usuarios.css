@@ -45,8 +45,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
     min-height: 20px;
     padding: 19px;
     margin-bottom: 20px;
-    background-image: linear-gradient(
-        179deg, #004447 , #00b2bb, #00747a) !important;
+    background-image:linear-gradient(       179deg, #0083ff8c, #0f8dbd, #5585df) !important;
     border: #0067a240!important;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -206,8 +205,8 @@ label {
     left: 0;
     margin: auto;
     right: 0;
-    width: calc(100% - 30%);
-    height: calc(100% - 20%);
+    width: max-content;
+    height: max-content;
     padding: 15px;
     border: solid 1px #ff00006b;
     background-image: linear-gradient(
@@ -349,8 +348,7 @@ div#footpesquisa {
     min-height: 20px;
     padding: 19px;
     margin-bottom: 20px;
-    background-image: linear-gradient(
-        179deg, #004447 , #00b2bb, #00747a) !important;
+    background-image: linear-gradient(       179deg, #0083ff8c, #0f8dbd, #5585df) !important;
     border: #0067a240!important;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;

@@ -1,6 +1,5 @@
-$('#icongit').click(function() { 
+   $('#icongit').click(function() { 
     window.open('https://github.com/PlayerX-000/PetTour/');
-
    } );
 
    $('#iconface').click(function() { 
